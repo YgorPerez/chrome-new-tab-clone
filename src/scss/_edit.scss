@@ -1,0 +1,16 @@
+.edit {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+
+	img:hover {
+		background-color: $hover-background-color;
+	}
+
+	img {
+		padding: 0.5rem;
+		border-radius: 50%;
+		filter: invert(100%);
+		-webkit-filter: invert(100%);
+	}
+}

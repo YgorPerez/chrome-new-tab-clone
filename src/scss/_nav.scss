@@ -1,0 +1,60 @@
+nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	color: $font-color-light;
+	outline: 1px dotted $hover-background-color;
+	outline-offset: 0.6rem;
+	background-image: linear-gradient(
+		180deg,
+		$background-gradient,
+		$background-color-dark
+	);
+
+	ul {
+		width: 95%;
+		margin: 0.5rem 0 0 0;
+		padding: 0;
+	}
+
+	.double-arrow {
+		width: 5%;
+		filter: invert(100%);
+		vertical-align: middle;
+		-webkit-filter: invert(100%);
+
+		a {
+			margin-left: 2vw;
+		}
+	}
+
+	a {
+		padding: 0.6rem 0.8rem 0.8rem 0.8rem;
+		text-decoration: none;
+		font-size: 1.2rem;
+		border-radius: 1.5rem;
+		-webkit-border-radius: 1.5rem;
+		-moz-border-radius: 1.5rem;
+		-ms-border-radius: 1.5rem;
+		-o-border-radius: 1.5rem;
+	}
+
+	a:hover {
+		text-decoration: none;
+		background-color: $hover-background-color;
+		cursor: default;
+	}
+
+	:visited {
+		color: $font-color-light;
+	}
+
+	img {
+		margin-right: 0.8rem;
+		vertical-align: middle;
+	}
+}

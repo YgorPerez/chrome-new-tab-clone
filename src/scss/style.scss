@@ -1,0 +1,34 @@
+@import "./variables";
+@import "./nav";
+@import "./header";
+@import "./edit";
+@import "./add";
+@import "./links";
+@import "./search";
+
+:root {
+	font-size: 10px;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+	height: 90%;
+	height: 90vh;
+	width: 100%;
+	background: $background-color-dark;
+	color: $font-color-light;
+	font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+
+	/* Required for text-overflow to do anything */
+	white-space: nowrap;
+	overflow: hidden;
+}

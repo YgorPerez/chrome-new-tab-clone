@@ -1,0 +1,47 @@
+header {
+	margin-top: 45px;
+	margin-bottom: 5px;
+
+	ul {
+		font-weight: bold;
+		font-size: 1.3rem;
+		margin: 15px 0 0 0;
+		display: inline-block;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+		a {
+			color: $font-color-light;
+			text-decoration: none;
+			margin: 0 9px;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		:visited {
+			color: $font-color-light;
+		}
+
+		img {
+			padding: 0.5rem;
+			margin: 0;
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			-o-border-radius: 50%;
+		}
+
+		.svg {
+			filter: invert(100%);
+			-webkit-filter: invert(100%);
+		}
+
+		img:hover {
+			background: $hover-background-color;
+		}
+	}
+}

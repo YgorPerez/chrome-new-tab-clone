@@ -1,0 +1,43 @@
+.search {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.search-box {
+		width: 40%;
+		height: 100%;
+		background: #fff;
+		border-radius: 40px;
+
+		img {
+			margin-left: 20px;
+			vertical-align: middle;
+		}
+
+		input {
+			font-weight: 500;
+			font-size: 1.6rem;
+			width: 90%;
+			height: 100%;
+			border: 0;
+			border-radius: 40px;
+			-webkit-border-radius: 40px;
+			-moz-border-radius: 40px;
+			-ms-border-radius: 40px;
+			-o-border-radius: 40px;
+		}
+
+		input:focus {
+			border: 0;
+		}
+
+		button {
+			margin-left: -60px;
+			vertical-align: middle;
+			background: #fff;
+			border: 0;
+			cursor: pointer;
+		}
+	}
+}

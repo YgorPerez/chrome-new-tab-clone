@@ -1,0 +1,325 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgba(245, 245, 245, 0.897);
+  outline: 1px dotted rgba(51, 51, 51, 0.603);
+  outline-offset: 0.6rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#121212), to(#050505));
+  background-image: linear-gradient(180deg, #121212, #050505);
+}
+
+nav ul {
+  width: 95%;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+}
+
+nav .double-arrow {
+  width: 5%;
+  filter: invert(100%);
+  vertical-align: middle;
+  -webkit-filter: invert(100%);
+}
+
+nav .double-arrow a {
+  margin-left: 2vw;
+}
+
+nav a {
+  padding: 0.6rem 0.8rem 0.8rem 0.8rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+nav a:hover {
+  text-decoration: none;
+  background-color: rgba(51, 51, 51, 0.603);
+  cursor: default;
+}
+
+nav :visited {
+  color: rgba(245, 245, 245, 0.897);
+}
+
+nav img {
+  margin-right: 0.8rem;
+  vertical-align: middle;
+}
+
+header {
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+header ul {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 15px 0 0 0;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul a {
+  color: rgba(245, 245, 245, 0.897);
+  text-decoration: none;
+  margin: 0 9px;
+}
+
+header ul a:hover {
+  text-decoration: underline;
+}
+
+header ul :visited {
+  color: rgba(245, 245, 245, 0.897);
+}
+
+header ul img {
+  padding: 0.5rem;
+  margin: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+header ul .svg {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+header ul img:hover {
+  background: rgba(51, 51, 51, 0.603);
+}
+
+.edit {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.edit img:hover {
+  background-color: rgba(51, 51, 51, 0.603);
+}
+
+.edit img {
+  padding: 0.5rem;
+  border-radius: 50%;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.add .add-background {
+  background: #082b20;
+  padding: 1rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.add .add-background img {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.add .add-background button {
+  margin-left: -30px;
+  border: 0;
+  padding: 0;
+  background: #082b20;
+  cursor: pointer;
+}
+
+.links {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links .container {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.links .container a {
+  padding: 1rem 0.6rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.links .container a span {
+  text-align: center;
+  width: 60px;
+  font-size: 1.2rem;
+  color: rgba(42, 41, 40, 0.897);
+  padding: 0.8rem 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.links .container a .icon {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #141414;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.links .container a .img {
+  vertical-align: middle;
+}
+
+.links .container a:hover {
+  background-color: rgba(51, 51, 51, 0.603);
+}
+
+.search {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search .search-box {
+  width: 40%;
+  height: 100%;
+  background: #fff;
+  border-radius: 40px;
+}
+
+.search .search-box img {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.search .search-box input {
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 90%;
+  height: 100%;
+  border: 0;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.search .search-box input:focus {
+  border: 0;
+}
+
+.search .search-box button {
+  margin-left: -60px;
+  vertical-align: middle;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+:root {
+  font-size: 10px;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  height: 90%;
+  height: 90vh;
+  width: 100%;
+  background: #050505;
+  color: rgba(245, 245, 245, 0.897);
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */

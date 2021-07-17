@@ -1,0 +1,30 @@
+.add {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+
+	.add-background {
+		background: $add-green;
+		padding: 1rem;
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		-ms-border-radius: 15px;
+		-o-border-radius: 15px;
+
+		img {
+			margin-right: 0;
+			padding-right: 0;
+		}
+
+		button {
+			margin-left: -30px;
+			border: 0;
+			padding: 0;
+			background: $add-green;
+			cursor: pointer;
+		}
+	}
+}
