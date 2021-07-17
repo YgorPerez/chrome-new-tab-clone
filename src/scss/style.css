@@ -113,7 +113,8 @@ header ul img:hover {
 }
 
 .edit {
-  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
   bottom: 15px;
   right: 15px;
 }
@@ -181,12 +182,19 @@ header ul img:hover {
 }
 
 .links .container {
-  width: 40%;
+  width: 600px;
+  height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .links .container a {
@@ -252,6 +260,8 @@ header ul img:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -261,7 +271,18 @@ header ul img:hover {
 }
 
 .search .search-box {
-  width: 40%;
+  width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   background: #fff;
   border-radius: 40px;
@@ -290,7 +311,8 @@ header ul img:hover {
 }
 
 .search .search-box button {
-  margin-left: -60px;
+  padding: 0;
+  margin-left: -70px;
   vertical-align: middle;
   background: #fff;
   border: 0;

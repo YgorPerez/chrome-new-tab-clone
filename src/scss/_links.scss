@@ -5,9 +5,12 @@
 	align-items: center;
 
 	.container {
-		width: 40%;
+		width: 600px;
+		height: 250px;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 
 		a {
 			padding: 1rem 0.6rem;

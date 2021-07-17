@@ -1,11 +1,16 @@
 .search {
 	height: 50px;
 	display: flex;
+	flex-wrap: no-wrap;
 	justify-content: center;
 	align-items: center;
 
 	.search-box {
-		width: 40%;
+		width: 550px;
+		display: flex;
+		flex-wrap: no-wrap;
+		justify-content: center;
+		align-items: center;
 		height: 100%;
 		background: #fff;
 		border-radius: 40px;
@@ -33,7 +38,8 @@
 		}
 
 		button {
-			margin-left: -60px;
+			padding: 0;
+			margin-left: -70px;
 			vertical-align: middle;
 			background: #fff;
 			border: 0;
