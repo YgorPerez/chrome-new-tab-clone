@@ -9,37 +9,46 @@
 		width: 550px;
 		display: flex;
 		flex-wrap: no-wrap;
-		justify-content: center;
 		align-items: center;
 		height: 100%;
 		background: #fff;
 		border-radius: 40px;
 
+		@media (max-width: 700px) {
+			width: 80%;
+		}
+
 		img {
-			margin-left: 20px;
 			vertical-align: middle;
+			margin-left: 20px;
 		}
 
 		input {
+			margin-left: 20px;
+			outline: 0;
 			font-weight: 500;
 			font-size: 1.6rem;
-			width: 90%;
-			height: 100%;
+			padding: 0;
+			width: 400px;
+			height: 90%;
 			border: 0;
 			border-radius: 40px;
 			-webkit-border-radius: 40px;
 			-moz-border-radius: 40px;
 			-ms-border-radius: 40px;
 			-o-border-radius: 40px;
+
+			@media (max-width: 700px) {
+				width: 70%;
+			}
 		}
 
-		input:focus {
-			border: 0;
+		input:focus::placeholder {
+			color: transparent;
 		}
 
 		button {
 			padding: 0;
-			margin-left: -70px;
 			vertical-align: middle;
 			background: #fff;
 			border: 0;

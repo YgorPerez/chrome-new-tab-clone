@@ -5,6 +5,7 @@
 	align-items: center;
 
 	.container {
+		margin: 0 50px;
 		width: 600px;
 		height: 250px;
 		display: flex;
@@ -30,9 +31,9 @@
 			span {
 				text-align: center;
 				width: 60px;
-				font-size: 1.2rem;
+				font-size: 1.4rem;
 				color: $font-color-dark;
-				padding: 0.8rem 1.5rem;
+				padding: 0.8rem 2rem;
 				background: #fff;
 				border-radius: 10px;
 				-webkit-border-radius: 10px;
@@ -43,7 +44,7 @@
 
 			.icon {
 				padding: 1rem;
-				margin: 1rem 0;
+				margin-bottom: 0.5rem;
 				background: $background-color-dark2;
 				border-radius: 50%;
 				-webkit-border-radius: 50%;
