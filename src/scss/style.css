@@ -35,6 +35,7 @@ nav .double-arrow {
 }
 
 nav a {
+  color: rgba(245, 245, 245, 0.897);
   padding: 0.6rem 0.8rem 0.8rem 0.8rem;
   text-decoration: none;
   font-size: 1.2rem;
@@ -185,7 +186,7 @@ header ul img:hover {
 .links .container {
   margin: 0 50px;
   width: 600px;
-  height: 200px;
+  height: 220px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
